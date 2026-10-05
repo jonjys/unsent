@@ -1,13 +1,15 @@
 * { box-sizing: border-box; }
-html, body { margin: 0; background: #0c0c0c; color: #f5f5f5; font-family: "Avenir Next", "Segoe UI", sans-serif; }
+html, body { margin: 0; background: #f6f1e8; color: #1c1712; font-family: "Avenir Next", "Segoe UI", sans-serif; }
 main { max-width: 420px; margin: 0 auto; padding: 22px 16px 64px; }
-.k { letter-spacing: .22em; font-size: 11px; color: #ff4d4d; }
+.k { letter-spacing: .22em; font-size: 11px; color: #c4493a; }
 h1 { font-size: 42px; line-height: .95; margin: 8px 0 10px; }
-p { color: #bdbdbd; }
-textarea { width: 100%; min-height: 110px; background: #161616; color: white; border: 1px solid #2a2a2a; border-radius: 16px; padding: 14px; font: 18px/1.35 "Avenir Next", sans-serif; }
-button, .btn { border: 0; border-radius: 999px; padding: 13px 16px; font: 16px/1 "Avenir Next", sans-serif; }
+p { color: #5c5146; }
+textarea { width: 100%; min-height: 110px; background: #fffdf8; color: #1c1712; border: 1px solid #1c1712; border-radius: 16px; padding: 14px; font: 18px/1.35 Georgia, serif; }
+button, .btn { border: 0; border-radius: 999px; padding: 13px 16px; font: 16px/1 "Avenir Next", sans-serif; cursor: pointer; }
 .row { display: flex; gap: 8px; margin-top: 12px; }
-.ghost { background: #1c1c1c; color: white; }
-.solid { background: #ff4d4d; color: white; }
-canvas { width: 100%; border-radius: 22px; margin-top: 18px; background: #111; }
-.meta { color: #8d8d8d; font-size: 13px; }
+.ghost { background: #fffdf8; color: #1c1712; border: 1px solid #1c1712; }
+.solid { background: #c4493a; color: white; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0; }
+.chip { background: transparent; color: #1c1712; border: 1px solid #1c1712; padding: 8px 10px; font-size: 13px; }
+canvas { width: 100%; height: auto; aspect-ratio: 9 / 16; border-radius: 22px; margin-top: 18px; background: #f4efe6; border: 1px solid #1c1712; display: block; }
+.meta { color: #9a3412; font-size: 13px; }
